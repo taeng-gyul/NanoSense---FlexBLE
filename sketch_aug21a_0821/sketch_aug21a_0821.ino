@@ -30,7 +30,7 @@ void setup() {
   sensorChar.writeValue((const uint8_t*)"sensor: 0\n", 10); // 초기 표시값
   BLE.advertise();
 }
-
+//my name is sunny
 void loop() {
   BLEDevice central = BLE.central();
   if (!central) return;
